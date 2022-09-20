@@ -1,0 +1,41 @@
+.totalExpense {
+  width: 35%;
+  padding: 10px 20px;
+}
+
+.expense_table {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container_main {
+    flex-direction: column;
+  }
+}
+
+.expense_tables tr td:last-child,
+.expense_tables tr th:last-child {
+  text-align: right;
+}
+.expense_tables tr td:last-child span {
+  font-weight: bold;
+}
+.expense_tables tr td:last-child span:last-child {
+  margin-left: 70px;
+}
+.expense_dropdown {
+  margin-top: 50px;
+}
+.expense_dropdown h2 {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+}
+.expense_dropdown h2 select {
+  margin-left: 15px;
+  background: #ccc;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
